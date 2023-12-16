@@ -44,7 +44,7 @@ module WOPR
 
   def self.port
     return @port if @port
-    p = ENV.fetch('WOPR_PORT', ENV.fetch('PORT', 4567)).to_i
+    p = ENV.fetch('WOPR_PORT', ENV.fetch('PORT', 3001)).to_i
     raise "$WOPR_PORT or $PORT must be a valid port number between 1 and 65,535" unless p >= 1 && p <= 65535
     @port = p
   end

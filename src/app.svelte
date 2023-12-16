@@ -12,7 +12,7 @@
   <div class="navbar navbar-dark bg-dark shadow-sm">
     <div class="container d-flex justify-content-between">
       <a href="/" class="navbar-brand d-flex align-items-center">
-        <strong>WOPR</strong>
+        <strong>WOPR.SAD</strong>
       </a>
     </div>
   </div>
@@ -27,6 +27,7 @@
           <button type='button' class="btn btn-success btn-lg" on:click={play('random')}>Easy mode</button>
           <button type='button' class="btn btn-danger btn-lg" on:click={play('wopr')}>Play against the WOPR</button>
         </p>
+        <img src="https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fpfgnwoakg73c1.jpg">
       </div>
     </section>
   {/if}
